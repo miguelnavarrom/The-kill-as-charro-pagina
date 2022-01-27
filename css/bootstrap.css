@@ -10850,13 +10850,18 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
+#logoArticulo{
+  width: 9rem;
+  height: auto;
+}
+
 #logo2{
   width: 5rem;
   height: auto;
   margin: 0 3rem 0 0;
 }
 
- 
+
 #navegacion{
   border-top: .5rem solid #fe0000;
 }
@@ -10867,6 +10872,8 @@ textarea.form-control-lg {
 #navegacion div a:hover{
   color: #fe0000;      /*mio*/
 }
+
+
 
 #fila1, #fila2{
   margin-top: 1.5em;
@@ -10977,6 +10984,16 @@ p{
   height: 100%;
 }
 
+#lowhats{
+  width: 50px;
+  height: 25px;
+  margin-top: .25rem;
+}
+
+#buscador{
+  margin-top: 1em;
+}
+
 /*validacion de formulario*/
 
   /*input:valid,
@@ -10988,9 +11005,3 @@ p{
   textarea:invalid {
       background: red;
   }*/
-
-
-
-
-
- 
