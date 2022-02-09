@@ -7,6 +7,7 @@
 		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="./css/misEstilos.css">
 
 
 		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -27,26 +28,30 @@
 		<div class="container">
 				<header>
 					<h1 id="titulo">The Kill As Charro</h1>
+					
+					<nav class="navbar navbar-expand-md navbar-light navegacion"  id="navegacion">
+						<div class="container">
+							<button type="button" class="navbar-dark navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+								<span class="navbar-toggler-icon"></span>
+							</button>
 
-					<nav class="navbar navbar-light " style="background-color: #141311;" id="navegacion">
-
-						<div class="container-fluid">
-    						<a class="navbar-brand" href="index.html">INICIO</a>
-    						<a class="navbar-brand" href="nosotros.html">SOBRE NOSOTROS</a>
-    						<a class="navbar-brand" href="../The-kill-as-charro/index.html#Eventos">EVENTOS</a>
-    						<!-- <a class="navbar-brand" href="#">BLOG</a> -->
-    						<a class="navbar-brand" href="articulos.html">ARTICULOS</a>
-    						<a class="navbar-brand" href="contacto.html">CONTACTO</a>
+							<div id="menuNavegacion" class="container-fluid mb-3 mt-3 collapse navbar-collapse">
+									<div class="container-fluid d-flex justify-content-evenly navbar-nav">
+										<a class="nav-item navega" href="index.html">INICIO</a>
+										<a class="nav-item navega" href="nosotros.html">SOBRE NOSOTROS</a>
+										<a class="nav-item navega" href="../The-kill-as-charro/index.html#Eventos">EVENTOS</a>
+										<a class="nav-item navega" href="#">BLOG</a>
+										<a class="nav-item navega" href="articulos.html">ARTICULOS</a>
+										<a class="nav-item navega" href="contacto.html">CONTACTO</a>	
+									</div>
+							</div>
   						</div>
-
-
 					</nav>
 
 					<div id="buscador" class="row">
-
 							<img src="img/logo.png" class="micky1 col-2" id="logoArticulo">
 
-							<div class="micky2  col-7">
+							<div class="micky2  col-8">
 								<div class="row input-group">
 									<input ID="txtPassword" type="Password" class="col-11 form-control">
 									<span class="col-1 input-group-btn">
@@ -55,17 +60,47 @@
 								</div>
 							</div>
 
-
-							<div class="micky3 col-3 row">
-								<img id="lowhats" src="./img/logowhatshap.png" class="col-5">
+							<div class="micky3 col-2 row">
+								<a href="#" class="col-5"><img id="lowhats" src="./img/logowhatshap.png"></a>
 								<h3 class="col-7">3312454214</h3>
 							</div>
-
 					</div>
-
-
 				</header>
 
+				<div class="row mt-5">
+					<aside  class="col-3 articulosAside">
+
+						aside
+
+					</aside>
+
+					<section class="col-9">
+						<div class="row">
+							<div class="col">
+								<div class="row">
+									<article class="col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">
+										<h3 class="">Playera</h3>
+										<img class="img-fluid" src="./img/Imagen-Aqui.png" alt="">
+									</article>
+									<article class="col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">Columna2</article>
+								</div>
+								<div class="row">
+									<article class=" col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">Columna1</article>
+									<article class="col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">Columna2</article>
+								</div>
+								<div class="row">
+									<article class="col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">Columna1</article>
+									<article class="col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">Columna2</article>
+								</div>
+								<div class="row">
+									<article class="col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">Columna1</article>
+									<article class="col-xs-12 col-md-5 offset-1 mb-5 articulo border border-success">Columna2</article>
+								</div>
+							</div>
+						</div>
+						
+					</section>
+				</div>
 				<aside>
 
 
